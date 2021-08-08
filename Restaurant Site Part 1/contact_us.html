@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us-Coconut Paradise</title>
+</head>
+
+<body>
+	<main>
+		<header>
+			<h1> Coconut Paradise </h1>
+		</header>
+		<hr />
+
+		<nav>
+			<p><a href="Home.html">Home</a></p>
+			<p><a href="menu.html">Menu</a></p>
+			<p><a href="contact_us.html">Contact Us</a></p>
+		</nav>
+		<hr />
+		
+		
+			<article id="contactUs>	<!--  -->
+
+				<form action ="submit.html" method="POST">
+				<label for ="name"> Name:<input type="text" name="name"> <br />
+				<label for ="email"> Email:<input type="text"  name="email"><br />
+				<label for ="phone"> Phone:<input type="text" name="phone"><br />
+				
+				<label for "inquiry"> Reason for Inquiry:</label>
+				<select id="inquiry" name="inquiry">
+				<option value= "default" selected> Catering</option>
+				<option value="privParty"> Private Party</option>
+				<option value="feedBack">Feedback</option>
+				<option value="othr">Other</option><br/>
+				</select><br />
+		
+				<label for="additionalInfo">Additional Information</label><br />
+				<textarea id="additionalInfo"></textarea><br />
+				
+				<label for="questionnaire">Have you been to Coconut Paradise before?</label>
+				<input type="radio" id="choice1" name="answerMe1" value="yes">
+				<label for ="choice1"> Yes</label>
+				<input type="radio" id="choice2" name="answerMe2" value="no">
+				<label for ="choice2"> No</label> <br />
+				<br />
+				
+				<legend> Best days to contact you:</legend>
+				<input type="checkbox" id="monday" name="day" value="monday">
+				<label for ="monday">M</label>
+				<input type="checkbox" id="tuesday" name="day" value="tuesday">
+				<label for ="tuesday">T</label>
+				<input type="checkbox" id="wednesday" name="day" value="wednesday">
+				<label for ="wednesday">W</label>
+				<input type="checkbox" id="thursday" name="day" value="thursday">
+				<label for ="thursday">Th</label>
+				<input type="checkbox" id="friday" name="day" value="friday">
+				<label for ="friday">F</label> <br />
+				
+				<input type="submit" value="Send Request">
+
+			
+				</form>
+			</article>
+	
+		<hr />
+		<footer>
+     <p>1438 Pelletier Street, Windsor, Ontario, N9S 1B1</p>
+	 <p>773-221-2283</p>
+					
+		</footer>
+	</main>
+</body>
+</html>		
