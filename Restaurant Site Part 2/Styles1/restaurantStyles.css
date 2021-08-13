@@ -1,0 +1,64 @@
+/*
+Creator: Raveen Sajeev
+Date created: 08/09/2021
+Date last modified: 08/10/2021
+*/
+
+header, footer{
+		background-color: #546a7b;
+		color: #fef9ff;
+		height: 100px;
+		text-align: center;
+		padding: 30px 10px 20px 10px;
+		font-family: arial;
+		color: #0d1f2d;
+		}
+body	{
+		background-color: #fef9ff;
+		font-family: arial, helvetica, sans-serif;
+		color: #0d1f2d;
+		max-width: 900px;
+		margin: 0 auto;	
+}
+
+
+nav a {
+    
+	background-color: #5b7d87;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+	display:block;
+	margin: 20px 20px;
+	width: 100px;
+	float: left;
+
+	
+
+}
+nav 	{
+		border-top: 3px dashed #546a7b;
+		border-bottom: 3px dashed #546a7b;
+		margin-top: 2px;	
+		
+}		
+
+nav a:hover {
+    background-color: #fef9ff;
+    color: #5b7d87; 
+    font-weight: bold;
+
+}
+
+ 
+
+nav a:visited {
+    color: blue; 
+}
+	
+	article {
+    margin-bottom: 16px;
+
+}
